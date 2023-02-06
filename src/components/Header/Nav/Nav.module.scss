@@ -1,0 +1,22 @@
+@import "@/styles/variables.scss";
+
+.navList {
+  display: flex;
+  font-size: $textMain;
+  line-height: 32px;
+
+
+  &Item + &Item {
+    margin-left: 102px;
+  }
+
+  &Item a {
+    color: #000;
+  }
+
+  &Item.active a {
+    font-weight: $fontBold;
+  }
+
+}
+

@@ -1,0 +1,31 @@
+.logo {
+  display: flex;
+  width: 96px;
+  height: 48px;
+  position: relative;
+
+  &Text {
+    position: absolute;
+    bottom: 15px;
+    left: 50px;
+  }
+}
+
+.petals {
+  position: absolute;
+  bottom: 9px;
+}
+
+.petal {
+  position: absolute;
+  bottom: 0;
+}
+
+.petal:nth-child(2) {
+  left: 8px;
+}
+
+.petal:nth-child(3) {
+  left: 9.5px;
+  bottom: -2px;
+}

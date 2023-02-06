@@ -1,0 +1,86 @@
+@import "@/styles/variables.scss";
+
+.about {
+  background-color: $backgroundMain;
+  height: calc(100vh - 114px);
+
+  &Container {
+    padding: 69px 160px 98px;
+    height: 100%;
+  }
+
+  &Content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &Info {
+
+    margin-top: 59px;
+
+    &ImgContainer {
+      position: relative;
+      width: 543px;
+      height: 293px;
+    }
+
+    &Text {
+      color: #000;
+      max-width: 448px;
+      line-height: 32px;
+      margin-top: 60px;
+      margin-bottom: 48px;
+    }
+
+
+    &Search {
+      height: 64px;
+      max-width: 448px;
+      background-color: $backgroundWhite;
+      border-radius: 40px;
+      padding: 8px 8px 8px 21px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &Button {
+        color: $whiteColor;
+        padding: 15px 32px;
+        background-color: $backgroundButton;
+        text-transform: uppercase;
+
+        &:not([disabled]):hover {
+          opacity: 0.5;
+          transition: all .3s;
+        }
+      }
+
+      &Input {
+        display: flex;
+        gap: 13px;
+      }
+    }
+  }
+
+  &Decor {
+    position: relative;
+    width: 100%;
+
+    &Card {
+      position: absolute;
+      bottom: 58px;
+      right: 205px;
+      z-index: 2;
+    }
+
+    &Parrot {
+      position: absolute;
+      right: -35px;
+      top: 0;
+    }
+  }
+}
+
+
+

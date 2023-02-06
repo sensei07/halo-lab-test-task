@@ -1,0 +1,63 @@
+{
+  "year": "2022",
+  "columns": [
+    {
+      "title": "DISCOVER",
+      "links": [
+        {
+          "label": "ALL CLASSES",
+          "url": "/v2/classes"
+        },
+        {
+          "label": "ABOUT US",
+          "url": "/about"
+        },
+        {
+          "label": "CAREERS",
+          "url": "/careers"
+        },
+        {
+          "label": "CONTACT US",
+          "action": "onQuestionClick"
+        }
+      ]
+    },
+    {
+      "title": "SOCIAL",
+      "links": [
+        {
+          "label": "INSTAGRAM",
+          "url": "https://www.instagram.com/studio",
+          "external": true
+        },
+        {
+          "label": "FACEBOOK",
+          "url": "https://www.facebook.com/studio/",
+          "external": true
+        },
+        {
+          "label": "TWITTER",
+          "url": "https://twitter.com/wearestudio",
+          "external": true
+        }
+      ]
+    },
+    {
+      "title": "FURTHER INFORMATION",
+      "links": [
+        {
+          "label": "FAQS",
+          "url": "/faq"
+        },
+        {
+          "label": "TERMS & CONDITIONS",
+          "url": "/terms"
+        },
+        {
+          "label": "PRIVACY POLICY",
+          "url": "/privacy"
+        }
+      ]
+    }
+  ]
+}
