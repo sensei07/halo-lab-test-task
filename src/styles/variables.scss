@@ -3,17 +3,18 @@ $fontNormal: 400;
 $fontSemiBold: 600;
 $fontBold: 700;
 
-$textSmall: '14px';
-$textMain: '16px';
-$textLarge: '18px';
-$textTitle: '24px';
-$textMainTitle: '40px';
+$textSmall: 14px;
+$textMain: 16px;
+$textLarge: 18px;
+$textTitle: 24px;
+$textMainTitle: 40px;
 /* end fonts variables */
 
 
 /* start text variables */
 $whiteColor: #fff;
-$blackTitle: #222433;
+$titleColor: #222433;
+$textColor: #1E1A20;
 /* end text variables */
 
 
@@ -21,11 +22,12 @@ $blackTitle: #222433;
 $backgroundWhite: #fff;
 $backgroundMain: #F7F3F4;
 $backgroundButton: #F2726C;
+$backgroundDivider: #222433;
 /* end bg variables */
 
 
 /* start container variables */
-$padding: 0 160px;
+$paddingX: 160px;
 /* end container variables */
 
 

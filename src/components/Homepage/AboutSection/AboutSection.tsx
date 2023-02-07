@@ -7,7 +7,7 @@ import {Button} from '@/components/UI/Button/Button';
 
 export const AboutSection: FC = () => {
     return (
-        <div className={styles.about}>
+        <section className={styles.about}>
             <div className={styles.aboutContainer}>
                 <div className={styles.aboutContent}>
                     <div className={styles.aboutInfo}>
@@ -35,6 +35,6 @@ export const AboutSection: FC = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
