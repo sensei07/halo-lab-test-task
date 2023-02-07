@@ -1,0 +1,51 @@
+@import "@/styles/variables.scss";
+@import "@/styles/mixins.scss";
+
+
+.getStarted {
+  margin-top: 125px;
+  margin-bottom: 125px;
+
+  &Container {
+    padding: 0 $paddingX;
+    height: 100%;
+  }
+
+  &Content {
+    display: flex;
+    justify-content: space-between;
+    @media (min-width: 1441px) {
+      justify-content: center;
+    }
+    gap: 125px;
+    background-color: $backgroundLight;
+    border-radius: 20px;
+    padding: 104px 104px 104px 83px;
+
+    &Info {
+      margin-top: 64px;
+
+      &Title {
+        @include sectionsTitle;
+        margin-bottom: 40px;
+      }
+
+      &Text {
+        @include sectionsText;
+        margin-bottom: 40px;
+        max-width: 384px;
+      }
+    }
+
+    &Login {
+      width: 422px;
+      height: 352px;
+      background-color: $backgroundMain;
+      border-radius: 16px;
+      padding: 40px 55px;
+    }
+  }
+}
+
+
+

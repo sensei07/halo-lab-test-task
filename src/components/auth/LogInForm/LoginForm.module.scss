@@ -1,0 +1,43 @@
+@import "@/styles/variables.scss";
+@import "@/styles/mixins.scss";
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &Title {
+    font-size: 32px;
+    font-weight: $fontSemiBold;
+    color: $titleColor;
+    text-align: center;
+    line-height: 58px;
+    margin-bottom: 17px;
+  }
+
+  &Button {
+    width: 100%;
+    color: $whiteColor;
+    padding: 15px 20px;
+    font-size: 13px;
+    background-color: $backgroundButton;
+    text-transform: uppercase;
+    margin-top: 32px;
+
+    &:not([disabled]):hover {
+      opacity: 0.5;
+      transition: all .3s;
+    }
+
+  }
+
+  &Input {
+    background-color: $backgroundWhite;
+    width: 100%;
+    padding: 12px 24px;
+  }
+
+  &Input + &Input {
+    margin-top: 16px;
+  }
+}
