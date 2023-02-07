@@ -3,14 +3,15 @@ import {ReactNode} from 'react';
 import classNames from 'classnames';
 
 interface ButtonProps {
+    type?: 'button' | 'submit' | 'reset',
     classes: string,
     disabled?: boolean,
     children: ReactNode;
 }
 
-export const Button = ({classes, disabled = false, children}: ButtonProps) => {
+export const Button = ({type = 'button', classes, disabled = false, children}: ButtonProps) => {
     return (
-        <button className={classNames(styles.button, classes)} disabled={disabled}>
+        <button type={type} className={classNames(styles.button, classes)} disabled={disabled}>
             {children}
         </button>
     );
