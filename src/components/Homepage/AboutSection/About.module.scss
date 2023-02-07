@@ -3,15 +3,20 @@
 .about {
   background-color: $backgroundMain;
   height: calc(100vh - 114px);
+  max-height: 774px;
+
 
   &Container {
-    padding: 69px 160px 98px;
+    padding: 69px $paddingX 98px;
     height: 100%;
   }
 
   &Content {
     display: flex;
     justify-content: space-between;
+    @media (min-width: 1441px) {
+      justify-content: center;
+    }
     height: 100%;
   }
 
@@ -69,7 +74,7 @@
 
     &Card {
       position: absolute;
-      bottom: 58px;
+      bottom: -15px;
       right: 205px;
       z-index: 2;
     }
