@@ -3,13 +3,16 @@ import {OurTeamSection} from '@/components/Homepage/OurTeamSection/OurTeamSectio
 import {GetStartedSection} from '@/components/Homepage/GetStartedSection/GetStartedSection';
 import {QuestionsSection} from '@/components/Homepage/QuestionsSection/QuestionsSection';
 
+import homepageData from '../../data/homepage/homepage.json';
+
 export default function Home() {
+
     return (
         <>
             <AboutSection/>
             <OurTeamSection/>
             <GetStartedSection/>
-            <QuestionsSection/>
+            <QuestionsSection questionsData={homepageData.questionsData}/>
         </>
     );
 };

@@ -1,41 +1,23 @@
 {
-  "meta": {
-    "ogTitle": "Studio - Online Classes | Commit To Your Creativity",
-    "ogDescription": "Take immersive, hands-on classes taught by your favorite creators and experts. Become a better music producer, singer, baker, dancer, artist, and more.",
-    "ogImg": "https://res.cloudinary.com/monthly/image/upload/q_auto:best,f_auto/v1649719544/monthly-admin-images/homepage/studio-og.jpg",
-    "canonicalUrl": "https://studio.com"
-  },
-  "heroData": {
-    "title": "Behind the scenes videos from your favorite creators",
-    "description": "Get exclusive access to the real, behind-the-scenes processes of your favorite creators. Get inspired, learn, and uncover insider secrets.",
-    "pricingText": "Starting at $19/mo for all classes and lessons",
-    "backgroundUrl": "https://res.cloudinary.com/monthly/image/upload/v1673612401/monthly-admin-images/behind-scenes-product/homepage/hero-desktop-background.jpg",
-    "mobileBackgroundUrl": "https://res.cloudinary.com/monthly/image/upload/v1673612401/monthly-admin-images/behind-scenes-product/homepage/hero-desktop-background.jpg",
-    "values": [
+  "questionsData": {
+    "title": "Ready to Get started?",
+    "description": "When pattern is mentioned in interior design, it is easy to asso- ciate it with a geometric patterned wallpaper or colourful prints on interior fabrics.",
+    "button": "Contact us",
+    "questions": [
       {
-        "title": "MAKE BETTER MUSIC",
-        "imageUrl": "https://res.cloudinary.com/monthly/image/upload/v1660663082/monthly-admin-images/homepage/q3-2022/her-music.jpg",
-        "altText": "Studio instructor H.E.R. playing music"
+        "id": 1,
+        "question": "What can I do to protect our planet?",
+        "answer": "Not to make an open fire in nature and to clean up litter; not to pollute open water bodies; to switch to alternative energy sources; to reduce the use of non-renewable resources"
       },
       {
-        "title": "BLOW PEOPLE'S MINDS",
-        "imageUrl": "https://res.cloudinary.com/monthly/image/upload/v1660664301/monthly-admin-images/homepage/q3-2022/blaine-magic.jpg",
-        "altText": "Studio instructor David Blaine performing a card trick"
+        "id": 2,
+        "question": "How to save nature ecology?",
+        "answer": "Not to make an open fire in nature and to clean up litter; not to pollute open water bodies; to switch to alternative energy sources; to reduce the use of non-renewable resources"
       },
       {
-        "title": "BAKE WITH CONFIDENCE",
-        "imageUrl": "https://res.cloudinary.com/monthly/image/upload/v1660664453/monthly-admin-images/homepage/q3-2022/saffitz-cooking.jpg",
-        "altText": "Studio instructor Claire Saffitz baking a pie"
-      },
-      {
-        "title": "BUILD YOUR IMAGINATION",
-        "imageUrl": "https://res.cloudinary.com/monthly/image/upload/v1660664453/monthly-admin-images/homepage/q3-2022/rober-engineering.jpg",
-        "altText": "Studio instructor Mark Rober working on a build"
-      },
-      {
-        "title": "CREATE ART YOU LOVE",
-        "imageUrl": "https://res.cloudinary.com/monthly/image/upload/v1660664457/monthly-admin-images/homepage/q3-2022/tenhun-art.jpg",
-        "altText": "Studio instructor Ten Hundred painting a colorful character"
+        "id": 3,
+        "question": "What is nature conservation?",
+        "answer": "Not to make an open fire in nature and to clean up litter; not to pollute open water bodies; to switch to alternative energy sources; to reduce the use of non-renewable resources"
       }
     ],
     "subtitle": "WITH STEP-BY-STEP, EXPERT GUIDANCE"
