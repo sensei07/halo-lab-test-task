@@ -1,0 +1,63 @@
+@import "@/styles/variables.scss";
+@import "@/styles/mixins.scss";
+
+
+.question + .question {
+  margin-top: 35px;
+}
+
+.question {
+  border-bottom: 1px solid rgba(30, 26, 32, .2);
+  padding-bottom: 32px;
+
+  &Button {
+    color: $whiteColor;
+    padding: 14px;
+    background-color: $backgroundButton;
+    text-transform: uppercase;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+
+    &:not([disabled]):hover {
+      opacity: 0.5;
+      transition: all .3s;
+    }
+  }
+
+  &Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+    &WithoutAnswer {
+      margin-bottom: 0;
+    }
+
+    &Title {
+      color: $textColor;
+      font-size: $textTitle;
+      font-weight: $fontSemiBold;
+      line-height: 24px;
+    }
+  }
+
+  &Text {
+    color: $textColor;
+    font-size: $textMain;
+    line-height: 24px;
+  }
+}
+
+.answerHide {
+  overflow: hidden;
+  max-height: 0;
+}
+
+.answerShow {
+  max-height: 500px;
+  transition: all 0.3s;
+}

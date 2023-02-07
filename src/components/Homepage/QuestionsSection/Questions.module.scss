@@ -2,12 +2,12 @@
 @import "@/styles/mixins.scss";
 
 
-.getStarted {
-  margin-top: 125px;
+.questions {
+  margin-top: 192px;
+  margin-bottom: 125px;
 
   &Container {
     padding: 0 $paddingX;
-    height: 100%;
   }
 
   &Content {
@@ -16,13 +16,9 @@
     @media (min-width: 1441px) {
       justify-content: center;
     }
-    gap: 125px;
-    background-color: $backgroundLight;
-    border-radius: 20px;
-    padding: 104px 104px 104px 83px;
+    gap: 104px;
 
     &Info {
-      margin-top: 64px;
 
       &Title {
         @include sectionsTitle;
@@ -31,20 +27,27 @@
 
       &Text {
         @include sectionsText;
-        margin-bottom: 40px;
-        max-width: 384px;
+        max-width: 423px;
       }
     }
 
-    &Login {
-      width: 422px;
-      height: 352px;
-      background-color: $backgroundMain;
-      border-radius: 16px;
-      padding: 40px 55px;
+    &Items {
+      width: 50%;
+    }
+  }
+
+  &ContactUsButton {
+    padding: 14px 36px;
+    width: 166px;
+    color: $whiteColor;
+    font-size: 13px;
+    background-color: $backgroundButton;
+    text-transform: uppercase;
+    margin-top: 32px;
+
+    &:not([disabled]):hover {
+      opacity: 0.5;
+      transition: all .3s;
     }
   }
 }
-
-
-
