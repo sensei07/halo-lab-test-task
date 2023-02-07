@@ -1,0 +1,66 @@
+@import "@/styles/variables.scss";
+
+$footerTextColor: #333333;
+$footerTextFontSize: 13px;
+
+.footer {
+  &Container {
+    padding: 96px $paddingX 112px;
+  }
+
+  &Content {
+    display: flex;
+    justify-content: space-between;
+    color: $footerTextColor;
+
+    &Contacts {
+      &Title {
+        font-size: 34px;
+        font-weight: $fontBold;
+        line-height: 48px;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+      }
+
+      &Text {
+        font-size: $footerTextFontSize;
+        max-width: 153px;
+        line-height: 24px;
+      }
+    }
+
+    &Headquarters {
+      &Title {
+        font-size: 20px;
+        font-weight: $fontBold;
+        letter-spacing: 0.3px;
+        line-height: 32px;
+        margin-bottom: 37px;
+      }
+
+      &Text {
+        font-size: $footerTextFontSize;
+        line-height: 24px;
+      }
+    }
+
+    &Social {
+      &Title {
+        font-size: 20px;
+        font-weight: $fontBold;
+        letter-spacing: 0.3px;
+        line-height: 32px;
+        margin-bottom: 37px;
+      }
+
+      &List {
+        display: flex;
+
+        &Item + &Item {
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+
+}
